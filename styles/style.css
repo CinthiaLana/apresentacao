@@ -38,7 +38,6 @@ body{
     color:var(--cor-secundaria);
     text-decoration: none;
     text-align: justify;
-    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     
@@ -160,5 +159,4 @@ body{
     .apresentacao__conteudo{
         width: auto;
     }
-
 }

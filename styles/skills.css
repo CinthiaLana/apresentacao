@@ -48,73 +48,59 @@ body{
     color:#22D4FD;
    }
 
-   
-.sobre_Mim {
-    padding: 5% 15%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 82px;
-}
-.sobre_Mim_conteudo {
+.skills{
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 20px;
+    align-items: center; /* Centraliza horizontalmente */
 }
 
-.sobre_Mim__conteudo__titulo {
+.skills__conteudo__titulo{
     font-size: 2.25rem;
     font-family: var(--fonte-primaria);
     display: flex;
     align-items: center;
     justify-content:center;
     text-align: justify;
+    
+}
 
-}
-.titulo-destaque{
-    color: var(--cor-terciaria);
-}
-.sobre_Mim__conteudo__texto {
+.skills__conteudo__texto{
+    padding: 5% 15%;
     font-size: 1.5rem;
     font-family: var(--font-secundaria);
     text-align: justify;
+    color: #22D4FD;
+}
+
+.skillis__links {
+    align-items: center;
+    justify-content:center;
+    text-align: justify;
+}
+
+
+.skills__links__subtitulos{
+    font-size: 2.25rem;
+    font-family: var(--fonte-primaria);
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    text-align: justify;
     
 }
-.sobre_Mim__links {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    gap: 32px;
-
-}
-
-.sobre_Mim__subtitulos {
-    font-family: var(--fonte-primaria);
-    font-weight: 400;
-    font-size: 1.5rem;
-}   
-.sobre_Mim__links__navegacao {
-    /* background-color: #22D4FD; */
+.skills__images {
     display: flex;
     justify-content: center;
-    gap:16px;
-    border:2px solid var(--cor-terciaria);
-    width: 50%;
-    text-align: center;
-    border-radius: 10px;
-    font-size: 1.5rem;
-    font-weight: 600;
-    padding: 21.5px 0;
-    text-decoration: none;
-    color: var(--cor-secundaria);
-    font-family: var(--font-secundaria);
+    gap: 20px;
+}
+.imagem{
+    width: 10%;  
+    height: auto;
+
 }
 
-.sobre_Mim__links__navegacao:hover {
-    background-color: var(--cor-hover);
-}
 .rodape{
     padding: 24px;
     text-align: center;
@@ -125,14 +111,14 @@ body{
     font-family: var(--font-secundaria);
     font-weight: 400;
     font-size: 1.5rem;
+    margin-top: 40px;
     
 }
-
-.sobre_Mim__conteudo__texto {
+.skillis__conteudo__texto {
     text-decoration: none;
     color: var(--cor-terciaria);
 }
-.sobre_Mim_apresentacao__conteudo__titulo{
+.skillis_apresentacao__conteudo__titulo{
     display: flex;
     justify-content: space-evenly;
 
@@ -160,4 +146,9 @@ body{
     .apresentacao__conteudo{
         width: auto;
     }
+}
+.skills__links__subtitulos{
+       justify-content: center;
+       align-items: center;
+       padding: 10%;
 }
